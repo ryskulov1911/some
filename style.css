@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Open+Sans:wght@400;600&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.nav_text {
+    color: #0088A2;
+    font-size: 72px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 88px;
+}
+.nav_block {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #808080;
+    height: 72px;
+}
+li {
+    list-style: none;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    font-size: 42px;
+    color: #fff;
+}
+li:hover{
+    background-color: #0088A2;
+}
+.li{
+    width: 20%;
+    height: 30px;
+
+}
+.li1{
+    width: 20%;
+    height: 100%;
+}
+.navBlock {
+    margin-top: 74px;
+}
+.section1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 83px;
+}
+.img1 {
+    width: 400px;
+    height: 240px;
+    opacity: 0.95;
+}
+.otstup {
+    background-color: #808080;
+    width: 100%;
+    height: 15px;
+    opacity: 0.3;
+    margin-top: 84px;
+}
+.comment {
+    position: relative;
+    text-align: center;
+}
+.comment p {
+    position: absolute;
+    top: 100px;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: 'Open sans';
+}
+.section2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 73px;
+}
+.main_text p {
+    text-align: center;
+    color: #0088A2;
+    font-size: 96px;
+    font-family: 'Open Sans';
+}
+.stol {
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    padding: 80px;
+}
+.main_text {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.pusk {
+    position: absolute;
+    padding-top: 150px;
+}
+.quest {
+    width: 70%;
+    height: 350px;
+    margin: 0 auto;
+    position: relative;
+}
+.question {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.question_img {
+    width: 230px;
+    height: 360px;
+}
+.question img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.question img:nth-child(1) {
+    left: 0%;
+}
+.question img:nth-child(2) {
+    left: 20%;
+    top: 20px;
+}
+.question img:nth-child(3) {
+    left: 40%;
+}
+.question img:nth-child(4) {
+    left: 60%;
+    top: 20px;
+}
+.question img:nth-child(5) {
+    left: 80%;
+}
+.project {
+    text-align: center;
+    margin-top: 84px;
+}
+.project h2 {
+    font-size: 76px;
+    font-family: 'Open Sans';
+    color: #0088A2;
+}
+.project p {
+    margin: 60px;
+    color: #707070;
+    font-size: 48px;
+    font-family: 'Roboto';
+}
+.download {
+    text-align: center;
+    margin-top: 84px;
+
+}
+.download h2 {
+    font-size: 76px;
+    font-family: 'Open Sans';
+    color: #0088A2;
+}
+.andqr {
+    margin: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.download p {
+    font-family: 'Roboto';
+    margin: 60px;
+    color: #707070;
+    font-size: 36px;
+}
+.footer {
+    margin-top: 113px;
+    background: #0088A2;
+}
+.sm {
+    padding-top: 75px;
+    font-family: 'Josefin Sans';
+    font-size: 96px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.online {
+    width: 60%;
+    padding-top: 13px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.end {
+    padding-top: 55px;
+    font-family: 'Open Sans';
+    display: flex;
+    justify-content: space-around;
+    color: #fdfdfd;
+}
+.contacts h2 {
+    font-size: 50px;
+    text-align: center;
+}
+.contacts p{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Open Sans';
+    color: #FFFFFF;
+}
+.p1 {
+    padding-top: 39px;
+}
+.adres h2 {
+    font-size: 50px;
+    text-align: center;
+}
+.adres p {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Open Sans';
+    color: #FFFFFF;
+}
+.p2 {
+    padding-top: 39px;
+}
+.help h2 {
+    font-size: 50px;
+    text-align: center;
+}
+.help p {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Open Sans';
+    color: #FFFFFF;
+}
+.p3 {
+    padding-top: 39px;
+}
